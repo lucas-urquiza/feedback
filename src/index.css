@@ -1,0 +1,153 @@
+
+* {
+  padding: 0;
+  margin:0;
+}
+
+html {
+  font-family: 'Average Sans', sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+.retangle {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 260px;
+  height: 10px;
+  background-color: rgb(81, 47, 47);
+  transition: transform 2s linear;
+}
+
+.infoBox {
+  width: 45%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #EA1D2C;
+}
+
+.infoBox p {
+  width: 70%;
+  margin-top: 24px;
+  color: #FCEBEA;
+  font-size: 24px;
+  text-align: center;
+}
+
+.infoBox h1 {
+  color: #FCEBEA;
+  font-size: 48px;
+  text-align: center;
+  padding: 0 12px;
+}
+
+.questionBox {
+  width: 55%;
+  padding: 0 20px;
+  height: 100vh;
+  background-color: #FCEBEA;
+}
+
+.questionTitle {
+  margin-top:30%;
+  font-size: 32px;
+  text-align: center;
+}
+
+.questionTitle__initialText {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 24px;
+  color: rgb(58, 58, 58);
+}
+
+.answerBox {
+ margin-top: 40px;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.answerBox button {
+  background-color: red;
+  border: 2px black;
+  font-size: 16px;
+  margin: 0 6px;
+  padding: 12px 32px;
+  color: white;
+  cursor: pointer;
+  transition: background .2s linear;
+}
+
+.answerBox button:hover {
+  background-color: #ef5753;
+}
+
+.finishBox {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #EA1D2C;
+  color: #FCEBEA;
+  text-align: center;
+}
+
+.finishBox h1 {
+  color: #FCEBEA;
+  font-size: 48px;
+  padding: 0 12px;
+}
+
+.finishBox h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.question__number {
+  font-size: 18px;
+  color: #ef5753;
+}
+
+@media (max-width: 900px)
+{
+  main {
+    flex-direction: column;
+  }
+
+  .infoBox {
+    height: 300px;
+    width: 100%;
+    padding: 12px 12px 20px 12px;
+  }
+
+  .questionBox {
+    height: auto;
+    width: 100%;
+  }
+
+  .questionTitle {
+    margin-top: 20px;
+    font-size: 32px;
+    text-align: center;
+  }
+
+}
+
+/* cores */
+
+/* #EA1D2C
+#C41835
+#ef5753
+
+branca
+#FCEBEA */
