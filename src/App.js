@@ -101,10 +101,10 @@ export default function App() {
         </div>
 
         <div>{endGame && `Acabou o questionario`}</div>
-        <div
+        {/* <div
           style={{ transform: `rotate(${-45 + "deg"})` }}
           className="retangle"
-        ></div>
+        ></div> */}
       </div>
 
 

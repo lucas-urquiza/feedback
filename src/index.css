@@ -6,6 +6,8 @@
 
 html {
   font-family: 'Average Sans', sans-serif;
+  font-size: 10px;
+  background-color: #FCEBEA;
 }
 
 main {
@@ -35,7 +37,7 @@ main {
   width: 70%;
   margin-top: 24px;
   color: #FCEBEA;
-  font-size: 24px;
+  font-size: 2.4rem;
   text-align: center;
 }
 
@@ -55,7 +57,7 @@ main {
 
 .questionTitle {
   margin-top:30%;
-  font-size: 32px;
+  font-size: 3.2rem;
   text-align: center;
 }
 
@@ -125,9 +127,24 @@ main {
   }
 
   .infoBox {
-    height: 300px;
+    height: auto;
     width: 100%;
     padding: 12px 12px 20px 12px;
+  }
+
+  .infoBox p {
+    width: auto;
+    margin-top: 24px;
+    color: #FCEBEA;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .infoBox h1 {
+    color: #FCEBEA;
+    font-size: 32px;
+    text-align: center;
+    padding: 0 12px;
   }
 
   .questionBox {
@@ -137,8 +154,14 @@ main {
 
   .questionTitle {
     margin-top: 20px;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
+  }
+
+  .answerBox button {
+    font-size: 20px;
+    margin: 0 6px;
+    padding: 8px 16px;
   }
 
 }
