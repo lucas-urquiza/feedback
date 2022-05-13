@@ -55,6 +55,8 @@ main {
   background-color: #FCEBEA;
 }
 
+
+
 .questionTitle {
   margin-top:30%;
   font-size: 3.2rem;
@@ -79,8 +81,9 @@ main {
 .answerBox button {
   background-color: red;
   border: 2px black;
-  font-size: 16px;
+  font-size: 22px;
   margin: 0 6px;
+  border-radius: 4px;
   padding: 12px 32px;
   color: white;
   cursor: pointer;
@@ -115,9 +118,78 @@ main {
   margin-top: 18px;
 }
 
+.inputName {
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 12px 32px;
+  font-size: 18px;
+  margin-top: 18px;
+  transition: opacity .2s linear;
+  margin-right: 8px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.restartButton {
+  background-color: #ef5753;
+  border-radius: 4px;
+  color:white;
+  cursor: pointer;
+  border: 2px black;
+  padding: 12px 32px;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 18px;
+  transition: opacity .2s linear;
+}
+
+.startFeedbackForm{
+  margin: 0 auto;
+  display: flex;
+flex-direction: column;
+width: 300px;
+margin: 0 auto;
+  font-size: 16px;
+  margin-top: 16px
+}
+
+.startFeedbackForm input {
+  border: 1px solid black;
+  padding: 2px;
+  margin-top: 10px
+}
+
+.restartButton:hover {
+  opacity: .8;
+}
+
 .question__number {
   font-size: 18px;
   color: #ef5753;
+}
+
+.resultTitle {
+  margin-top:20%;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.result__image__wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.result__image__wrapper img {
+  max-width: 90%;
+  margin-bottom: -10px;
 }
 
 @media (max-width: 900px)
